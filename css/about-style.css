@@ -71,7 +71,7 @@
 #logo-bar-3{
     animation: topToBottom3 5s  ease-out infinite;
 }
-#apex-logo {
+#apex-logo-svg {
     width: 100%;
 }
 @keyframes topToBottom1{

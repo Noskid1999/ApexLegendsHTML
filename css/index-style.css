@@ -10,8 +10,8 @@ a{
 /* Section A  */
 #section-A{
     position: fixed;
-    top: 60px;
-    height: 420px;
+    top: 3.75rem;
+    height: 26.25rem;
     width: 100%;
     background-image: url("../images/octane-header-full.jpg");
     background-size: cover;
@@ -21,7 +21,7 @@ a{
 #left-wrapper{
     display: grid;
     grid-template-rows: 1fr 1fr;
-    height: 400px;
+    height: 25rem;
     text-align: center;
 }
 #apex-logo-front img{
@@ -37,13 +37,16 @@ a{
 }
 #play-now-button{
     font-size: 3vw;
+    line-height: 6vw;
     background: none;
     border: .25vw solid white;
     border-radius: 1vw;
     transition-duration: .5s;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 #play-now-button:hover{
-    border: 1vw solid #fff;
+    border: .5vw solid #fff;
     background-color: #fff;
     color: #000;
     transition-duration: .5s;
@@ -59,6 +62,7 @@ a{
     }
     #play-now-button{
         font-size: 3vw;
+        line-height: 6vw;
     }
 }
 @media screen and (max-width: 800px){
@@ -67,6 +71,7 @@ a{
     }
     #play-now-button{
         font-size: 5vw;
+        line-height: 10vw;
     }
 }
 @media screen and (max-width:540px){
@@ -81,6 +86,7 @@ a{
     #play-now-button{
         border: .5vw solid #fff;
         font-size: 4vw;
+        line-height: 8vw;
     }
 }
 
@@ -89,8 +95,8 @@ a{
 
 #section-B{
     position: absolute;
-    top: 480px;
-    height: 600px;
+    top: 30rem;
+    height: 37.5rem;
     width: 100%;
     background-image: url("../images/octane-large-1920w.jpg");
     background-size: cover;
@@ -101,7 +107,7 @@ a{
     display: grid;
     grid-column: 2/3;
     grid-template-rows: 25% 15% 20% 15% 25%;
-    height: 600px;
+    height: 37.5rem;
     color: #fff;
     text-align: center;
 }
@@ -119,6 +125,7 @@ a{
     grid-row: 4/5;
     padding-left: 0;
     justify-items: center;
+    
 }
 @media screen and (max-width:1024px){
     #section-B{

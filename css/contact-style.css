@@ -12,13 +12,13 @@
 	padding: 20px;
 	background: #f4f7f8;
 	border-radius: 8px;
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family: 'SaucerBB', 'Saucer BB';
 }
 .form-style fieldset{
 	border: none;
 }
 .form-style legend {
-	font-size: 1.4em;
+	font-size: 2em;
 	margin-bottom: 10px;
 }
 .form-style label {
@@ -26,16 +26,11 @@
 	margin-bottom: 8px;
 }
 .form-style input[type="text"],
-.form-style input[type="date"],
-.form-style input[type="datetime"],
 .form-style input[type="email"],
 .form-style input[type="number"],
-.form-style input[type="search"],
-.form-style input[type="time"],
-.form-style input[type="url"],
 .form-style textarea,
 .form-style select {
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family: "Seravek-Normal";
 	background: rgba(255,255,255,.1);
 	border: none;
 	border-radius: 4px;
@@ -51,13 +46,8 @@
 	margin-bottom: 30px;
 }
 .form-style input[type="text"]:focus,
-.form-style input[type="date"]:focus,
-.form-style input[type="datetime"]:focus,
 .form-style input[type="email"]:focus,
 .form-style input[type="number"]:focus,
-.form-style input[type="search"]:focus,
-.form-style input[type="time"]:focus,
-.form-style input[type="url"]:focus,
 .form-style textarea:focus,
 .form-style select:focus{
 	background: #d2d9dd;
@@ -100,4 +90,5 @@
 .form-style input[type="button"]:hover
 {
 	background: rgb(110, 39, 43);
+	cursor: crosshair;
 }

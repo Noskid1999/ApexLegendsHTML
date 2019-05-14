@@ -17,29 +17,29 @@
 <body>
     <header>
             <div class="button-wrapper">
-                <a href="#"><button class="button">DOWNLOAD FOR FREE</button></a>
+                <a href="#"><div class="button">DOWNLOAD FOR FREE</div></a>
             </div>
             <ul class="big-menu">
                 <li id="apex-logo">
-                    <img src="images/apex-white-menu-logo.png">
+                    <img src="images/apex-white-menu-logo.png" alt="Apex Logo">
                 </li>
-                <a href="index.html">
-                    <li>Home</li>
-                </a>
-                <a href="about.html">
-                    <li>About</li>
-                </a>
-                <a href="legends.html">
-                    <li>Legends</li>
-                </a>
-                <a href="media.html"  class="current-page">
-                    <li>MEDIA</li>
-                </a>
-                <a href="contact.html">
-                    <li>CONTACT</li>
-                </a>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    <a href="legends.html">Legends</a>
+                </li>
+                <li>
+                    <a href="media.html">MEDIA </a>
+                </li>
+                <li>
+                    <a href="contact.html">CONTACT</a>
+                </li>                   
                 <li id="apex-text-logo">
-                    <img src="images/apex-white-nav-logo.svg">
+                    <img src="images/apex-white-nav-logo.svg" alt="ApexWhite">
                 </li>
             </ul>
             <div class="hamburger-container" onclick="myFunction(this);appearMenu()">
@@ -49,21 +49,23 @@
             </div>
             <div class="hamburger-menu" id="vertical-menu">
                 <ul>
-                    <a href="index.html">
-                        <li>Home</li>
-                    </a>
-                    <a href="about.html">
-                        <li>About</li>
-                    </a>
-                    <a href="legends.html">
-                        <li>Legends</li>
-                    </a>
-                    <a href="media.html">
-                        <li>MEDIA</li>
-                    </a>
-                    <a href="contact.html">
-                        <li>CONTACT</li>
-                    </a>
+
+                        <li> 
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li> 
+                            <a href="about.html">About</a>
+                        </li>
+                        <li> 
+                            <a href="legends.html">Legends</a>
+                        </li>
+                        <li> 
+                            <a href="media.html">MEDIA</a>
+                        </li>
+                        <li> 
+                            <a href="contact.html">CONTACT</a>
+                        </li>
+                                            
                 </ul>
             </div>
     </header>
@@ -72,22 +74,22 @@
     <button class="right-arrow" onclick="right();"><i class="fas fa-caret-right"></i></button>
     <div class="image-gallery">
         <div id="big-image">
-            <img src="images/media/default3.jpg" id="big-img">
+            <img src="images/media/default3.jpg" id="big-img" alt="Big Image">
         </div>
         <div class="small-image" id="small-image1">
-            <img src="images/media/default1.jpg" id="small-img1" onclick="changeMain(0);">
+            <img src="images/media/default1.jpg" id="small-img1" alt="Small Image 1" onclick="changeMain(0);">
         </div>
         <div class="small-image" id="small-image2">
-            <img src="images/media/default2.jpg" id="small-img2" onclick="changeMain(1);">
+            <img src="images/media/default2.jpg" id="small-img2" alt="Small Image 2" onclick="changeMain(1);">
         </div>
         <div class="small-image" id="small-image3">
-            <img src="images/media/default3.jpg" id="small-img3" onclick="changeMain(2);">
+            <img src="images/media/default3.jpg" id="small-img3" alt="Small Image 3" onclick="changeMain(2);">
         </div>
         <div class="small-image" id="small-image4">
-            <img src="images/media/default4.jpg" id="small-img4" onclick="changeMain(3);">
+            <img src="images/media/default4.jpg" id="small-img4" alt="Small Image 4" onclick="changeMain(3);">
         </div>
         <div class="small-image" id="small-image5">
-            <img src="images/media/default5.jpg" id="small-img5" onclick="changeMain(4);">
+            <img src="images/media/default5.jpg" id="small-img5" alt="Small Image 5" onclick="changeMain(4);">
         </div>
     </div>
     
@@ -98,7 +100,7 @@
                 <p>On Play Station 4, Xbox One and Origin on PC</p>
                 <a href="#">
                     <div id="play-for-free">
-                        <p align="center">PLAY FREE NOW</p>
+                        <p>PLAY FREE NOW</p>
                     </div>
                 </a>
             </div>
@@ -106,11 +108,13 @@
         <div id="footer-bottom">
             <div id="sub-menu">
                 <div id="options">
-                    <li><a href="home.html">HOME</a></li>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="legends.html">LEGENDS</a></li>
-                    <li><a href="media.html">MEDIA</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
+                    <ul>
+                        <li><a href="home.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="legends.html">LEGENDS</a></li>
+                        <li><a href="media.html">MEDIA</a></li>
+                        <li><a href="CONTACT.html">CONTACT</a></li>
+                    </ul>
                 </div>
                 <div id="social-media">
                     <p>JOIN THE CONVERSATION</p><br>
@@ -120,9 +124,13 @@
                     <a href="https://www.youtube.com/playapex"><i class="fab fa-youtube"></i></a> &nbsp;&nbsp;&nbsp;
                 </div>
             </div>
+            <div id="footer-img">
+                <img src="images/apex-logo.png" alt="Apex Logo">
+                <img src="images/respawn-logo.png" alt="Respawn Logo">
+            </div>
         </div>
     </footer>
-    <script type="text/javascript" src="js/menu.js"></script>
+    <script src="js/menu.js"></script>
     <script>
     var images=[
         ["default1","default2","default3","default4","default5",],

@@ -37,7 +37,6 @@
     transition-duration: .5s;
     border-radius: 1vw;
     justify-items: center;
-
     padding: 3%;
 }
 #footer-text-wrapper #play-for-free:hover{
@@ -45,6 +44,9 @@
     color:#000;
 }
 
+#play-for-free p{
+    text-align: center;
+}
 .footer #footer-bottom{
     background-color: rgba(37, 37, 37,1);
 
@@ -57,10 +59,9 @@
     display:grid;
     grid-template-columns: 70% 30%;
 }
-#footer-bottom #sub-menu #options{
+#footer-bottom #sub-menu #options ul{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-
     grid-column-gap: 1vw;
     width: 100%;
 }
@@ -87,8 +88,14 @@
 #social-media a:hover{
     color: rgb(156, 55, 50);
 }
+#footer-img {
+    display: grid;
+    width: 30%;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10%;
+}
 #footer-img img{
-    margin-right: 10%;
+    align-self: center;
 }
 @media screen and (max-width:1024px){
     
